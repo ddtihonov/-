@@ -1,0 +1,111 @@
+@import url(../vendor/normalize.css);
+
+/*Подключаем fonts*/
+@import url(../fonts/fonts.css);
+
+/*Подключаем page*/
+@import url(../blocks/page/page.css);
+
+/*Подключаем header*/
+@import url(../blocks/header/header.css);
+
+/*Подключаем footer*/
+@import url(../blocks/footer/footer.css);
+
+/*Подключаем link-aim*/
+@import url(../blocks/link-aim/link-aim.css);
+
+/*Подключаем popup*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__close-icon/popup__close-icon.css);
+
+.header {
+    max-width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+
+.header__information{
+    max-width: 406px;
+    margin: 0;
+    margin: 0 0 0 auto;
+
+}
+.header__subtitle {
+    max-width: 333px;
+    margin-top: 164px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #b5ca00;
+}
+.header__title {
+    max-width: 473px;
+    margin-top: 164px;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.header__button {
+    width: 295px;
+    height: 60px;
+    background-color: #b5ca00;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}
+.header__image {
+    max-width: 874px;
+    margin: 0;
+}
+
+.box {
+    border: 1px solid fuchsia;
+}
+
+.bonuses {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.bonuses__title {
+    max-width: 302px;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 400;
+    margin: 50px auto;
+}
+
+.bonuses__table{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 70px; 
+}
+.cell {
+    width: 225px;
+    margin: 0;
+}
+.cell__image {
+}
+.cell__title {
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.cell__line {
+}
+.cell__text {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+}
