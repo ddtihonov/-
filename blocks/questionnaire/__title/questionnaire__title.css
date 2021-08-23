@@ -1,0 +1,10 @@
+.questionnaire__title{
+    width: 133px;
+    margin-left: 20px;
+}
+
+@media (max-width: 500px){
+    .questionnaire__title{
+        margin-left: 0;
+    }
+}

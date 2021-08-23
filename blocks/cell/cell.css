@@ -1,0 +1,14 @@
+.cell {
+    width: 225px;
+    margin-top: 60px;
+    padding: 0 5px;
+}
+
+@media (max-width: 500px){
+    .cell{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px auto 0;
+    }
+}

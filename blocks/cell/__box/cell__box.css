@@ -1,0 +1,23 @@
+.cell__box{
+    width: 106px;
+    height: 96px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cell__box_pump{
+    background-image: url(../../../images/Group4.svg);
+}
+
+.cell__box_calendar{
+    background-image: url(../../../images/Group\ 2.svg);
+}
+
+.cell__box_maney{
+    background-image: url(../../../images/Hand-money\ 1.svg);
+}
+
+.cell__box_home{
+    background-image: url(../../../images/Group3.svg) ;
+}

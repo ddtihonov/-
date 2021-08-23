@@ -1,0 +1,32 @@
+.header__title {
+    max-width: 473px;
+    margin-top: 164px;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+@media (max-width: 1100px){
+    .header__title{
+        font-size: 35px;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 800px){
+    .header__title{
+        font-size: 28px;
+        line-height: 1.1;
+    }
+}
+
+
+@media (max-width: 500px){
+    .header__title{
+        font-size: 28px;
+        line-height: 33px;
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+}

@@ -8,50 +8,149 @@
     <title>Подбор персонала клининг</title>
     <link rel="stylesheet" href="pages/index.css">
 </head>
-<body class="page box">
+<body class="page box1">
     <header class="header box">
-        <div class="header__information box">
+        <div class="header__information  hide box">
             <p class="header__subtitle">Требуются специалисты по уборке</p>
             <h1 class="header__title">Надежный доход
                 и удобный график работы</h1>
-            <button class="header__button link-aim" type="button" aria-label="Записаться">Записаться</button>
+            <button class="button link-aim" type="button" aria-label="Записаться">Записаться</button>
         </div>
-        <img class="header__image box" src="images/cleaner1_21-copy 1.jpg" alt="Женщина убирается">
+        <img class="header__image box1" src="images/cleaner1_21-copy 1.jpg" alt="женщина убирается">
+        <img class="header__image_small" src="images/cleaner1_117 copy 1.jpg" alt="женщина убирается">
+        <div class="header__box">
+            <img class="header__logo" src="images/logo_small 1.svg" alt="логотип">
+            <button class="button link-aim" type="button" aria-label="Записаться">Записаться</button>
+            <div class="header__information">
+                <p class="header__subtitle">Требуются специалисты по уборке</p>
+                <h1 class="header__title">Надежный доход
+                    и удобный график работы</h1>
+            </div>
+        </div>
     </header>
     <main class="content">
         <section class="bonuses">
-            <h2 class="bonuses__title">Мы предлагаем</h2>
+            <h2 class="bonuses__title title">Мы предлагаем</h2>
             <ul class="bonuses__table">
                 <li class="cell">
-                    <img class="cell__image" src="images/Hand-money 1.svg" alt="деньги">
-                    <h3 class="cell__title">Выплаты вовремя</h3>
-                    <img class="cell__line" src="images/Line 6.svg" alt="линия">
-                    <p class="cell__text">Выплата на банковскую карту.
+                    <div class="cell__box cell__box_maney"></div>
+                    <h3 class="subtitle cell__subtitle">Выплаты вовремя</h3>
+                    <div class="cell__line"></div>
+                    <p class="text cell__text">Выплата на банковскую карту.
                         2 раза в месяц.</p>
                 </li>
                 <li class="cell">
-                    <img class="cell__image" src="images/Group 2.svg" alt="">
-                    <h3 class="cell__title">Удобное расписание</h3>
-                    <img class="cell__line" src="images/Line 6.svg" alt="линия">
-                    <p class="cell__text">Большой выбор графиков. Можно составить индивидуальный.</p>
+                    <div class="cell__box cell__box_calendar"></div>
+                    <h3 class="subtitle cell__subtitle">Удобное расписание</h3>
+                    <div class="cell__line"></div>
+                    <p class="text cell__text">Большой выбор графиков. Можно составить индивидуальный.</p>
                 </li>
                 <li class="cell">
-                    <img class="cell__image" src="images/Group3.svg" alt="">
-                    <h3 class="cell__title">Много заказов</h3>
-                    <img class="cell__line" src="images/Line 6.svg" alt="линия">
-                    <p class="cell__text">Скажите свои рабочие дни, а мы обеспечим заказами.</p>
+                    <div class="cell__box cell__box_home"></div>
+                    <h3 class="subtitle cell__subtitle">Много заказов</h3>
+                    <div class="cell__line"></div>
+                    <p class="text cell__text">Скажите свои рабочие дни, а мы обеспечим заказами.</p>
                 </li>
                 <li class="cell">
-                    <img class="cell__image" src="images/Group4.svg" alt="">
-                    <h3 class="cell__title">Выдаем инвентарь</h3>
-                    <img class="cell__line" src="images/Line 6.svg" alt="линия">
-                    <p class="cell__text">Все необходимое для уборки предоставляет компания.</p>
+                    <div class="cell__box cell__box_pump"></div>
+                    <h3 class="subtitle cell__subtitle">Выдаем инвентарь</h3>
+                    <div class="cell__line"></div>
+                    <p class="text cell__text">Все необходимое для уборки предоставляет компания.</p>
                 </li>
             </ul>
         </section>
+        <section class="questions">
+            <h2 class="questions__title title">Как стать частью команды?</h2>
+            <ul class="questions__table">
+                <li class="cell">
+                    <img src="images/1.svg" alt="1">
+                    <h3 class="subtitle cell__subtitle">Заполните   
+                        анкету</h3>
+                    <p class="text cell__text">Расскажите немного
+                        про себя. Нам важно
+                        познакомиться.</p>
+                </li>
+                <li class="cell">
+                    <img src="images/2.svg" alt="2">
+                    <h3 class="subtitle cell__subtitle">Оплачиваемая
+                        стажировка</h3>
+                    <p class="text cell__text">Выйдете на реальный заказа с опытным клинером. Стажировка полностью оплачивается</p>
+                </li>
+                <li class="cell">
+                    <img src="images/3.svg" alt="3">
+                    <h3 class="subtitle cell__subtitle">Работайте 
+                        зарабатывайте</h3>
+                    <p class="text cell__text">Вы часть дружной команды. Сделайте свою жизнь стабильной с UberClean.</p>
+                </li>
+        </section>
+       <!-- <section class="questionnaire">
+            <div class="questionnaire__box">
+                <h2 class="title questionnaire__title" >Анкета</h2>
+                <img class="questionnaire__image" src="images/Group.svg" alt="анкета">
+            </div>
+            <div class="questionnaire__background">
+                <div class="questionnaire__information box1">
+                    <img src="images/women.svg" alt="девушка">
+                    <form class="form box1" name="user">
+                        <label class="form__label">
+                            <p class="form__text">Ф.И.О.</p>
+                            <input class="form__input form__input_user_name" type="text" name="name" id="name-input" placeholder="Ф.И.О." pattern="[А-Яа-яЁё]{4,}" minlength="2" maxlength="50" required>
+                            <span class="form__input-error name-input-error"></span>
+                        </label>
+                        <label class="form__label">
+                            <p class="form__text">Телефон</p>
+                            <input class="form__input form__input_user_name" type="tel" name="tel" id="tel-input" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7 (999) 111 22 33" required>
+                            <span class="form__input-error name-input-error"></span>
+                        </label>
+                        <label class="form__label">
+                            <p class="form__text">Дата рождения</p>
+                            <input class="form__input form__input_user_name" type="date" name="date" id="date-input"  required>
+                            <span class="form__input-error name-input-error"></span>
+                        </label>
+                        <label class="form__label">
+                            <p class="form__text">Гражданство</p>
+                            <select class="form__input" required >
+                                <option value="red">Таджикистан</option>
+                                <option value="blask">Узбекистан</option>
+                                <option selected value="rus">Россия</option>
+                                <option value="green">Украина</option>
+                                <option value="green">Белоруссия</option>
+                                <option value="green">Киргизия</option>
+                            </select>
+                        </label>
+                        <button class="button form__button link-aim" type="submit" aria-label="Записаться">Записаться на собеседование</button>
+                    </form>
+                </div>
+            </div>
+        </section>-->
     </main>
     <footer class="footer">
-
+        <h2 class="footer__title title">Отвечаем на вопросы</h2>
+        <ul class="footer__table">
+            <li class="footer__cell">
+                <h3 class="subtitle footer__subtitle">На первую уборку я поеду одна?</h3>
+                <p class="text footer__text">Нет. На первый заказ вы едите с опытным клинером, 
+                    вашим наставником.</p>
+            </li>
+            <li class="footer__cell">
+                <h3 class="subtitle footer__subtitle">Мне оплатят стажировку?</h3>
+                <p class="text footer__text">Да, стажировка оплачивается. Ведь вы едите на полноценный заказ.</p>
+            </li>
+            <li class="footer__cell">
+                <h3 class="subtitle footer__subtitle">Что мне нужно делать на уборке?</h3>
+                <p class="text footer__text">Это все расскажут на собеседовании. Потом все повторят на уборке на практике. И выдадим очень подробную инструкцию.</p>
+            </li>
+            <li class="footer__cell">
+                <h3 class="subtitle footer__subtitle">Какой у меня будет график работы?</h3>
+                <p class="text footer__text">У нас большие и гибкие возможности. Поэтому вы можете составить свой график работы. Указать время в которое принимаете заказы.
+                    Самые популярные графики в нашей компании 5/2  6/1  2/2</p>
+            </li>
+            <li class="footer__cell">
+                <h3 class="subtitle footer__subtitle">Что взять с собой на первую уборку?</h3>
+                <p class="text footer__text">Весь инвентарь будет у вашего наставника. Вам нужно только взять сменную одежду для комфортной работы. После стажировки вам предоставят форму.</p>
+            </li>
+        </ul>
+        <button class="button footer__button link-aim" type="button" aria-label="Записаться">Записаться</button>
     </footer>
     <!--<div class="popup">
         <div class="popup__container">

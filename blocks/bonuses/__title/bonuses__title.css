@@ -1,0 +1,10 @@
+.bonuses__title {
+    max-width: 302px;
+    margin: 50px auto 0;
+}
+
+@media (max-width: 500px){
+    .bonuses__title{
+        width: 226px;
+    }
+}

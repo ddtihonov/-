@@ -1,0 +1,12 @@
+.questions__title{
+    max-width: 532px;
+    text-align: center;
+    margin: 120px auto 0;
+}
+
+@media (max-width: 500px){
+    .questions__title{
+        width: 284px;
+        margin-top: 95px;
+    }
+}

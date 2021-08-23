@@ -1,0 +1,13 @@
+.questionnaire__box{
+    max-width: 1110px;
+    margin: 0 auto 45px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@media (max-width: 500px){
+    .questionnaire__box{
+        justify-content: center;
+    }
+}

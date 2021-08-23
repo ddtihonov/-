@@ -1,0 +1,18 @@
+.footer__table{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 1110px){
+    .footer__table{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .footer__table{
+        margin: 0 10px;
+        list-style-type: disc;
+    }
+}

@@ -1,0 +1,16 @@
+.bonuses__table{
+    max-width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px){
+    .bonuses__table{
+        flex-direction: column;
+    }
+}
