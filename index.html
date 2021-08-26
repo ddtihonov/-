@@ -8,18 +8,18 @@
     <title>Подбор персонала клининг</title>
     <link rel="stylesheet" href="pages/index.css">
 </head>
-<body class="page box1">
-    <header class="header box">
-        <div class="header__information  hide box">
+<body class="page">
+    <header class="header">
+        <div class="header__information  header__information_hide">
             <p class="header__subtitle">Требуются специалисты по уборке</p>
             <h1 class="header__title">Надежный доход
                 и удобный график работы</h1>
             <button class="button link-aim" type="button" aria-label="Записаться">Записаться</button>
         </div>
-        <img class="header__image box1" src="images/cleaner1_21-copy 1.jpg" alt="женщина убирается">
-        <img class="header__image_small" src="images/cleaner1_117 copy 1.jpg" alt="женщина убирается">
+        <img class="header__image" src="images/cleaner-big.jpg" alt="женщина убирается">
+        <img class="header__image_small" src="images/cleaner-small.jpg" alt="женщина убирается">
         <div class="header__box">
-            <img class="header__logo" src="images/logo_small 1.svg" alt="логотип">
+            <img class="header__logo" src="images/logo.svg" alt="логотип">
             <button class="button link-aim" type="button" aria-label="Записаться">Записаться</button>
             <div class="header__information">
                 <p class="header__subtitle">Требуются специалисты по уборке</p>
@@ -82,34 +82,35 @@
                         зарабатывайте</h3>
                     <p class="text cell__text">Вы часть дружной команды. Сделайте свою жизнь стабильной с UberClean.</p>
                 </li>
+            </ul>    
         </section>
-       <!-- <section class="questionnaire">
+        <section class="questionnaire">
             <div class="questionnaire__box">
                 <h2 class="title questionnaire__title" >Анкета</h2>
                 <img class="questionnaire__image" src="images/Group.svg" alt="анкета">
             </div>
             <div class="questionnaire__background">
-                <div class="questionnaire__information box1">
-                    <img src="images/women.svg" alt="девушка">
-                    <form class="form box1" name="user">
-                        <label class="form__label">
-                            <p class="form__text">Ф.И.О.</p>
-                            <input class="form__input form__input_user_name" type="text" name="name" id="name-input" placeholder="Ф.И.О." pattern="[А-Яа-яЁё]{4,}" minlength="2" maxlength="50" required>
+                <div class="questionnaire__information">
+                    <img class="questionnaire__girl" src="images/women.svg" alt="девушка">
+                    <form class="form" name="user">
+                        <div class="form__box">
+                            <p class="form__text">Имя</p>
+                            <input class="form__input form__input_user_name" type="text" name="name" pattern="[А-Яа-яЁё]{4,}" minlength="2" maxlength="50" required>
                             <span class="form__input-error name-input-error"></span>
-                        </label>
-                        <label class="form__label">
+                        </div>
+                        <div class="form__box">
                             <p class="form__text">Телефон</p>
-                            <input class="form__input form__input_user_name" type="tel" name="tel" id="tel-input" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7 (999) 111 22 33" required>
+                            <input class="form__input form__input_user_name" type="tel" name="tel"  pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" required>
                             <span class="form__input-error name-input-error"></span>
-                        </label>
-                        <label class="form__label">
+                        </div>
+                        <div class="form__box">
                             <p class="form__text">Дата рождения</p>
-                            <input class="form__input form__input_user_name" type="date" name="date" id="date-input"  required>
+                            <input class="form__input form__input_user_name" type="date" name="date" required>
                             <span class="form__input-error name-input-error"></span>
-                        </label>
-                        <label class="form__label">
+                        </div>
+                        <div class="form__box">
                             <p class="form__text">Гражданство</p>
-                            <select class="form__input" required >
+                            <select class="form__input">
                                 <option value="red">Таджикистан</option>
                                 <option value="blask">Узбекистан</option>
                                 <option selected value="rus">Россия</option>
@@ -117,45 +118,85 @@
                                 <option value="green">Белоруссия</option>
                                 <option value="green">Киргизия</option>
                             </select>
-                        </label>
-                        <button class="button form__button link-aim" type="submit" aria-label="Записаться">Записаться на собеседование</button>
+                        </div>
+                        <button class="form__button link-aim button-submit" type="submit" aria-label="Записаться">Записаться на собеседование</button>
                     </form>
                 </div>
             </div>
-        </section>-->
-    </main>
-    <footer class="footer">
-        <h2 class="footer__title title">Отвечаем на вопросы</h2>
-        <ul class="footer__table">
-            <li class="footer__cell">
-                <h3 class="subtitle footer__subtitle">На первую уборку я поеду одна?</h3>
-                <p class="text footer__text">Нет. На первый заказ вы едите с опытным клинером, 
+        </section>
+        <section class="answers">
+            <h2 class="answers__title title">Отвечаем на вопросы</h2>
+        <ul class="answers__table">
+            <li class="answers__cell">
+                <h3 class="subtitle answers__subtitle">На первую уборку я поеду одна?</h3>
+                <p class="text answers__text">Нет. На первый заказ вы едите с опытным клинером, 
                     вашим наставником.</p>
             </li>
-            <li class="footer__cell">
-                <h3 class="subtitle footer__subtitle">Мне оплатят стажировку?</h3>
-                <p class="text footer__text">Да, стажировка оплачивается. Ведь вы едите на полноценный заказ.</p>
+            <li class="answers__cell">
+                <h3 class="subtitle answers__subtitle">Мне оплатят стажировку?</h3>
+                <p class="text answers__text">Да, стажировка оплачивается. Ведь вы едите на полноценный заказ.</p>
             </li>
-            <li class="footer__cell">
-                <h3 class="subtitle footer__subtitle">Что мне нужно делать на уборке?</h3>
-                <p class="text footer__text">Это все расскажут на собеседовании. Потом все повторят на уборке на практике. И выдадим очень подробную инструкцию.</p>
+            <li class="answers__cell">
+                <h3 class="subtitle answers__subtitle">Что мне нужно делать на уборке?</h3>
+                <p class="text answers__text">Это все расскажут на собеседовании. Потом все повторят на уборке на практике. И выдадим очень подробную инструкцию.</p>
             </li>
-            <li class="footer__cell">
-                <h3 class="subtitle footer__subtitle">Какой у меня будет график работы?</h3>
-                <p class="text footer__text">У нас большие и гибкие возможности. Поэтому вы можете составить свой график работы. Указать время в которое принимаете заказы.
+            <li class="answers__cell">
+                <h3 class="subtitle answers__subtitle">Какой у меня будет график работы?</h3>
+                <p class="text answers__text">У нас большие и гибкие возможности. Поэтому вы можете составить свой график работы. Указать время в которое принимаете заказы.
                     Самые популярные графики в нашей компании 5/2  6/1  2/2</p>
             </li>
-            <li class="footer__cell">
-                <h3 class="subtitle footer__subtitle">Что взять с собой на первую уборку?</h3>
-                <p class="text footer__text">Весь инвентарь будет у вашего наставника. Вам нужно только взять сменную одежду для комфортной работы. После стажировки вам предоставят форму.</p>
+            <li class="answers__cell">
+                <h3 class="subtitle answers__subtitle">Что взять с собой на первую уборку?</h3>
+                <p class="text answers__text">Весь инвентарь будет у вашего наставника. Вам нужно только взять сменную одежду для комфортной работы. После стажировки вам предоставят форму.</p>
             </li>
         </ul>
-        <button class="button footer__button link-aim" type="button" aria-label="Записаться">Записаться</button>
+        <button class="button answers__button link-aim" type="button" aria-label="Записаться">Записаться</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2021 Tikhonov Dmitry</p>
     </footer>
-    <!--<div class="popup">
+    <div class="popup popup-form">
         <div class="popup__container">
             <button class="popup__close-icon link-aim" type="button" aria-label="закрыть"></button>
+            <form class="popup__form box" name="user">
+                <div class="form__box">
+                    <p class="form__text">Имя</p>
+                    <input class="form__input form__input_user_name" type="text" name="name" minlength="2" maxlength="50" required>
+                    <span class="form__input-error name-input-error"></span>
+                </div>
+                <div class="form__box">
+                    <p class="form__text">Телефон</p>
+                    <input class="form__input form__input_user_name" type="tel" name="tel"  pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" required>
+                    <span class="form__input-error name-input-error"></span>
+                </div>
+                <div class="form__box">
+                    <p class="form__text">Дата рождения</p>
+                    <input class="form__input form__input_user_name" type="date" name="date" required>
+                    <span class="form__input-error name-input-error"></span>
+                </div>
+                <div class="form__box">
+                    <p class="form__text">Гражданство</p>
+                    <select class="form__input">
+                        <option value="red">Таджикистан</option>
+                        <option value="blask">Узбекистан</option>
+                        <option selected value="rus">Россия</option>
+                        <option value="green">Украина</option>
+                        <option value="green">Белоруссия</option>
+                        <option value="green">Киргизия</option>
+                    </select>
+                </div>
+                <button class="popup__form-button link-aim" type="submit" aria-label="Записаться">Записаться на собеседование</button>
+            </form> 
         </div> 
-    </div>-->
+    </div>
+    <div class="popup popup-record">
+        <div class="popup__container">
+            <button class="popup__close-icon link-aim" type="button" aria-label="закрыть"></button>
+            <h3 class="popup__title">Вы успешно записаны!</h3>
+            <p class="popup__text">Сейчас вам перезвонят для уточнения деталей.</p>
+        </div> 
+    </div>
+    <script src="scripts/index.js"></script>
 </body>
 </html>

@@ -12,6 +12,10 @@
 @import url(../blocks/header/__information/header__information.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__information/_hide/header__information_hide.css);
+@import url(../blocks/header/__image/_small/header__image_small.css);
+@import url(../blocks/header/__box/header__box.css);
 
 /*Подключаем button*/
 @import url(../blocks/button/button.css);
@@ -47,16 +51,31 @@
 @import url(../blocks/questionnaire/__box/questionnaire__box.css);
 @import url(../blocks/questionnaire/__title/questionnaire__title.css);
 @import url(../blocks/questionnaire/__image/questionnaire__image.css);
+@import url(../blocks/questionnaire/__background/questionnaire__background.css);
+@import url(../blocks/questionnaire/__information/questionnaire__information.css);
+@import url(../blocks/questionnaire/__girl/questionnaire__girl.css);
+
+/*Подключаем form*/
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__text/form__text.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__box/form__box.css);
+
+/*Подключаем answers*/
+@import url(../blocks/answers/answers.css);
+@import url(../blocks/answers/__title/answers__title.css);
+@import url(../blocks/answers/__button/answers__button.css);
+@import url(../blocks/answers/__cell/answers__cell.css);
+@import url(../blocks/answers/__table/answers__table.css);
+@import url(../blocks/answers/__subtitle/answers__subtitle.css);
+@import url(../blocks/answers/__text/answers__text.css);
 
 
 /*Подключаем footer*/
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__title/footer__title.css);
-@import url(../blocks/footer/__table/footer__table.css);
-@import url(../blocks/footer/__cell/footer__cell.css);
-@import url(../blocks/footer/__button/footer__button.css);
-@import url(../blocks/footer/__subtitle/footer__subtitle.css);
-@import url(..//blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
 
 /*Подключаем link-aim*/
 @import url(../blocks/link-aim/link-aim.css);
@@ -66,106 +85,7 @@
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__close-icon/popup__close-icon.css);
-
-
-.header__image {
-    width: 100%;
-    max-width: 874px;
-    min-width: 0;
-    
-}
-
-@media (max-width: 768px){
-    .hide{
-        display: none;
-    }
-}
-
-.header__image_small{
-    max-width: 100vw;
-    display: none;
-}
-
-@media (max-width: 500px){
-    .header__image_small{
-        display: flex;
-    }
-}
-
-
-@media (max-width: 500px){
-    .header__image{
-        display: none;
-    }
-}
-
-.header__box {
-    position: absolute;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    margin: 280px 20px -85px;
-}
-
-@media (max-width: 500px){
-    .header__box{
-        display: flex;
-    }
-}
-
-.box {
-    border: 1px solid fuchsia;
-}
-
-.box1 {
-    border: 1px solid green;
-}
-
-
-.questionnaire__background{
-    max-width: 100%;
-    background-color: #8664c6;
-}
-
-.questionnaire__information{
-    max-width: 1110px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.form{
-    max-width: 900px;
-    margin-top: 96px;
-    padding: 0 5px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
-    grid-template-rows: auto;
-    row-gap: 25px;
-    column-gap: 120px;
-    
-}
-
-
-.form__input{
-    width: 360px;
-    height: 50px;
-    padding: 0;
-    border-radius: 5px;
-    border: none;
-}
-
-.form__text{
-    color: #ffffff;
-    margin: 0;
-    margin-bottom: 14px;
-}
-
-.form__button{
-    margin: 100px 5px 60px auto;
-    grid-row-start: 3; 
-    grid-row-end: 3; 
-    grid-column-start: 2;   
-    grid-column-end: 2; 
-}
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__form-button/popup__form-button.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/popup__text.css);

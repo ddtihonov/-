@@ -1,0 +1,11 @@
+.header__image {
+    width: 100%;
+    max-width: 874px;
+    min-width: 0;
+}
+
+@media (max-width: 500px){
+    .header__image{
+        display: none;
+    }
+}

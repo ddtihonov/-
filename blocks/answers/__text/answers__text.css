@@ -1,9 +1,9 @@
-.footer__text{
+.answers__text{
     margin: 0;
 }
 
 @media (max-width: 500px){
-    .footer__text{
+    .answers__text{
         font-style: italic;
     }
 }

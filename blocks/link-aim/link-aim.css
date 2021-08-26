@@ -1,5 +1,5 @@
 .link-aim:hover{
-    opacity: .6;
+    background-color: rgb(185, 223, 80);
     transition: 2s;
     cursor: pointer;
 }

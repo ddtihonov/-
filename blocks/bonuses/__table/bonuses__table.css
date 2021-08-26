@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 500px){
+@media (max-width: 510px){
     .bonuses__table{
         flex-direction: column;
     }

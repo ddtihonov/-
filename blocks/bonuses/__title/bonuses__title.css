@@ -5,6 +5,7 @@
 
 @media (max-width: 500px){
     .bonuses__title{
+        margin-top: 100px;
         width: 226px;
     }
 }

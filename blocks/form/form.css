@@ -1,0 +1,17 @@
+.form{
+    max-width: 900px;
+    margin: 70px auto auto;
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 890px){
+    .form{
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw;
+        margin-top: 25px;
+    }
+}

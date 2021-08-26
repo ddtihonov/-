@@ -1,16 +1,16 @@
-.footer__cell{
+.answers__cell{
     margin-top: 35px;
 }
 
-.footer__cell:first-child{
+.answers__cell:first-child{
     margin-top: 0;
 }
 
 @media (max-width: 500px){
-    .footer__cell{
+    .answers__cell{
         margin-top: 40px;
     }
-    .footer__cell:first-child{
+    .answers__cell:first-child{
         margin-top: 0;
     }
 }

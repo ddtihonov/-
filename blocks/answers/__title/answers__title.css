@@ -1,10 +1,10 @@
-.footer__title {
+.answers__title{
     max-width: 416px;
     margin: 70px auto 60px;
 }
 
 @media (max-width: 500px){
-    .footer__title{
+    .answers__title{
         width: 299px;
         margin: 75px auto 40px;
     }

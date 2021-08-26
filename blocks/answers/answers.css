@@ -1,0 +1,12 @@
+.answers{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 500px){
+    .answers{
+        margin: 0 12px;
+    }
+}

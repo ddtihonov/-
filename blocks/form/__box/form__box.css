@@ -1,0 +1,9 @@
+.form__box{
+    margin: 15px 0 auto;
+}
+
+@media (max-width: 890px){
+    .form__box{
+        margin: 15px auto 0;
+    }
+}
