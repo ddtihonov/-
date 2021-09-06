@@ -40,7 +40,7 @@ document.querySelectorAll('.button').forEach (element => {
 });
 
 //слушатель подтверждения отправки
-document.querySelectorAll('.button-submit').forEach (element => {
+document.querySelectorAll('.form-button').forEach (element => {
     element.addEventListener('submit', submitForm);
 });
 

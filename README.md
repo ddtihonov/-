@@ -15,3 +15,5 @@ ___
 ___
 
 ### Ссылка на проект:
+
+https://ddtihonov.github.io/Klining/
