@@ -5,16 +5,16 @@
     background-repeat: no-repeat;
     background-color: transparent;
     border: none;
-    width: 32px;
-    height: 32px;
-    right: -40px;
-    top: -40px;
+    width: 25px;
+    height: 25px;
+    right: -30px;
+    top: -30px;
 }
 
 @media (max-width: 768px){
     .popup__close-icon{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
         top: -32px;
         right: 0;
     }
